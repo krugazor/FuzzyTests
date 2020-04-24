@@ -1,0 +1,38 @@
+included:
+  - Sources
+  - Tests
+excluded:
+  - Sources/Docs
+  - Sources/Lint
+  - .build
+disabled_rules:
+  - colon
+  - trailing_whitespace
+opt_in_rules:
+  - anyobject_protocol
+  - array_init
+  - closure_spacing
+  - discouraged_object_literal
+  - discouraged_optional_boolean
+  - discouraged_optional_collection
+  - empty_count
+  - fallthrough
+  - fatal_error_message
+  - file_header
+  - file_name_no_space
+  - force_unwrapping
+  - function_default_parameter_at_end
+  - identical_operands
+  - implicitly_unwrapped_optional
+  - indentation_width
+  - missing_docs
+  - operator_usage_whitespace
+  - prohibited_super_call
+  - raw_value_for_camel_cased_codable_enum
+  - redundant_nil_coalescing
+  - redundant_type_annotation
+  - toggle_bool
+  - unavailable_function
+  - unneeded_parentheses_in_closure_argument
+  - unused_declaration
+  - unused_import
